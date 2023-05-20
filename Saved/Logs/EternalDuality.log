@@ -4178,3 +4178,108 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.20-02.54.26:009][597]LogSourceControl: Warning: Only EConcurrency::Synchronous is tested/supported for this operation.
 [2023.05.20-02.54.26:344][598]LogSourceControl: Writed 'D:/Unreal/Projects/EternalDuality/Saved/Diff/temp-389feb2c7c803b653983e9a6ac16d288b2f9c59f-Z4CTQ4LG3YV10EKPD0UE8Q.uasset' (849o)
 [2023.05.20-03.29.53:872][775]LogViewport: Scene viewport resized to 891x582, mode Windowed.
+[2023.05.20-03.33.58:225][393]LogViewport: Scene viewport resized to 1188x1248, mode Windowed.
+[2023.05.20-03.34.04:776][414]LogViewport: Scene viewport resized to 1715x1248, mode Windowed.
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: ================================================
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Total job queries 132, among them cache hits 6 (4.55%)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Tracking 121 distinct input hashes that result in 95 distinct outputs (78.51%)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: RAM used: 0.99 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Shaders Compiled: 121
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Jobs assigned 126, completed 121 (96.03%)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Average time worker was idle: 187.15 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Time job spent in pending queue: average 0.57 s, longest 2.65 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 3.38 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Job life time (pending + execution): average 1.65 s, max 3.57
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.56 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Jobs were issued in 98 batches (only local compilation was used), average 1.29 jobs/batch
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Average processing rate: 18.43 jobs/sec
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Total thread time: 53.84 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Total thread preprocess time: 2.73 s
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Percentage time preprocessing: 5.06%
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Effective parallelization: 8.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 0.88 sec, max 0.88 sec, min 0.88 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 0.84 sec, max 0.84 sec, min 0.84 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 0.83 sec, max 0.83 sec, min 0.83 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 0.76 sec, max 1.00 sec, min 0.54 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 24.00% of total time (compiled   17 times, average 0.76 sec, max 1.00 sec, min 0.54 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.06% of total time (compiled   15 times, average 0.47 sec, max 0.83 sec, min 0.31 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.02% of total time (compiled   15 times, average 0.40 sec, max 0.51 sec, min 0.28 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.74% of total time (compiled   12 times, average 0.35 sec, max 0.43 sec, min 0.27 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.72% of total time (compiled   12 times, average 0.26 sec, max 0.42 sec, min 0.17 sec)
+[2023.05.20-03.34.07:078][572]LogShaderCompilers: Display: ================================================
+[2023.05.20-03.34.07:405][605]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.20-03.34.23:710][485]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.20-03.34.23:710][485]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.20-03.34.23:710][485]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.20-03.34.24:999][485]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.20-03.34.27:245][716]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.20-03.34.27:255][716]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.20-03.34.27:285][718]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.20-03.34.33:246][433]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.05.20-03.34.33:246][433]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.20-03.34.37:687][800]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.05.20-03.34.37:703][800]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.05.20-03.34.37:707][800]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.05.20-03.34.37:725][802]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.05.20-03.34.42:413][355]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Dummy
+[2023.05.20-03.34.42:483][355]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.05.20-03.40.03:547][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.20-03.40.03:577][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/BP_Dummy" FILE="D:/Unreal/Projects/EternalDuality/Content/MyContent/Blueprints/BP_Dummy.uasset" SILENT=true
+[2023.05.20-03.40.03:582][619]LogSavePackage: Moving output files for package: /Game/MyContent/Blueprints/BP_Dummy
+[2023.05.20-03.40.03:582][619]LogSavePackage: Moving 'D:/Unreal/Projects/EternalDuality/Saved/BP_Dummy2478A4B14E6F14F4FEE306948D63B13F.tmp' to 'D:/Unreal/Projects/EternalDuality/Content/MyContent/Blueprints/BP_Dummy.uasset'
+[2023.05.20-03.40.04:109][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 561 ms (total: 934 ms)
+[2023.05.20-03.40.04:200][619]AssetCheck: New page: Asset Save: BP_Dummy
+[2023.05.20-03.40.04:200][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Blueprints/BP_Dummy.BP_Dummy
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Bridge/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.10:402][295]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'D:/Unreal/Projects/EternalDuality'
+[2023.05.20-03.40.26:672][295]LogSlate: Window 'Submit Files' being destroyed
+[2023.05.20-03.40.27:279][295]LogSourceControl: commit successful: [master c10edc2] HP - Added Dummy BP
+[2023.05.20-03.40.27:316][295]SourceControl: [master c10edc2] HP - Added Dummy BP
+[2023.05.20-03.40.27:316][295]SourceControl:  1 file changed, 3 insertions(+)
+[2023.05.20-03.40.27:316][295]SourceControl:  create mode 100644 Content/MyContent/Blueprints/BP_Dummy.uasset
+[2023.05.20-03.40.27:331][295]SourceControl: Commited [master c10edc2] HP - Added Dummy BP.

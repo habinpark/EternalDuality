@@ -4177,3 +4177,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.20-02.54.25:645][595]SourceControl: Commited [master (root-commit) 8d3a4c5] Initial commit.
 [2023.05.20-02.54.26:009][597]LogSourceControl: Warning: Only EConcurrency::Synchronous is tested/supported for this operation.
 [2023.05.20-02.54.26:344][598]LogSourceControl: Writed 'D:/Unreal/Projects/EternalDuality/Saved/Diff/temp-389feb2c7c803b653983e9a6ac16d288b2f9c59f-Z4CTQ4LG3YV10EKPD0UE8Q.uasset' (849o)
+[2023.05.20-03.29.53:872][775]LogViewport: Scene viewport resized to 891x582, mode Windowed.
